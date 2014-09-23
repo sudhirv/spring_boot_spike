@@ -1,0 +1,9 @@
+
+Generic: &default
+  detailsPage : "generic/details.jsp"
+  searchPage : "generic/search.jsp"
+
+RCI:
+  <<: *default
+  detailsPage : "rci/details.jsp"
+
